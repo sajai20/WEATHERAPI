@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 120%;
+    background-image: url('./images/volcano_fog_mountain_133437_1680x1050.jpg');
+}
+
+/* img {
+    width: 100%;
+    height: auto;
+} */
+
+.card {
+    background-color: #000000d0;
+    padding: 2rem;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 500px;
+    margin: 1rem;
+    color: whitesmoke;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+}
+
+.temp {
+    font-size: 30px;
+    margin-bottom: 1.5rem;
+}
+
+.serach {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input.search_bar {
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    background-color: #7c7c7c2b;
+    border-radius: 25px;
+    color: white;
+    font-family: inherit;
+    width: calc(100% - 100px);
+    font-size: 100%;
+}
+
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    height: 46px;
+    width: 46px;
+    background-color: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #7c7c7c6b;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.weather.loading {
+    visibility: hidden;
+}
