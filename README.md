@@ -1,6 +1,6 @@
 #WEATHER
 
-[]()
+[https://weatherapisajai.netlify.app/](https://weatherapisajai.netlify.app/)
 
 ###project details
 
